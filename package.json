@@ -13,7 +13,7 @@
     "php"
   ],
   "author": "Peter Hebert <peter@peterhebert.com>",
-  "license": "GPL-2.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
