@@ -19,15 +19,9 @@ Please follow the directions for installing [Composer](https://getcomposer.org/d
 
 ### Install this projet's dependencies
 
-Install Composer packages:
+    composer install && npm install
 
-    composer install
-
-Install Node packages:
-
-    npm install
-
-## Helpful Commands
+## Pattern Lab - Helpful Commands
 
 These are some helpful commands you can use on the command line for working with Pattern Lab.
 
@@ -60,4 +54,18 @@ You can use PHP's built-in web server to review your Pattern Lab project in a br
     php core/console --server
 
 Then open [http://localhost:8080](http://localhost:8080) in your browser.
+
+## Gulp build scripts
+
+The default Gulp task will compile SCSS to CSS, generate pattern lab, start the pattern lab server and watch for changes:
+
+    gulp
+
+To watch for changes in SCSS:
+
+    gulp watch
+
+To build CSS from SCSS
+
+    gulp sass
 
