@@ -1,0 +1,8 @@
+<ul class="sg-colors">
+	{% for var, col in grays %}
+				<li>
+					<div class="sg-swatch" style="background: {{ col }};"></div>
+					<div class="sg-label"><code>${{ var }}</code>: {{ col }}</div>
+				</li>
+    {% endfor %}
+</ul>
