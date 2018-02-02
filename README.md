@@ -15,10 +15,7 @@ The following components are pre-packaged:
 
 ## Installing
 
-### 1. Install Composer
-
-Please follow the directions for [installing Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) on the Composer website. We recommend you [install it globally](https://getcomposer.org/doc/00-intro.md#globally).
-
+Please follow the directions for installing [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) and [node.js](https://nodejs.org/).
 
 ### Install this projet's dependencies
 
